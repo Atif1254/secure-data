@@ -80,7 +80,7 @@ def login_page():
     password = st.text_input("Enter admin password", type="password")
 
     if st.button("Login"):
-        if username == "yahya" and password == "yahya123":
+        if username == "atif" and password == "atif123":
             st.success("✅ Logged in successfully.")
             st.session_state.authorized = True
             st.session_state.attempts = 0
